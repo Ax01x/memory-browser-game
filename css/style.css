@@ -1,28 +1,35 @@
-button {
-    width: 50px;
-    height: 50px;
-    background-color: rgba(251, 250, 249, 0.621);
-}
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100dvh;
-
-    background-color: rgb(252, 218, 223);
+    background-color: rgba(250, 223, 222, 0.966);
 }
 
-div{
-    display: flex;
-    justify-content: center;
+header {
+    background-color: rgb(211, 120, 135);
 }
+
 h1 {
     text-align: center;
 }
 
-header {
-    display: flex;
-    background-color: rgb(211, 120, 135);
-   
+button {
+    width: 150px;
+    height: 200px;
+    background-color: rgba(242, 216, 189, 0.621);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    font-size: 50px;
+    color: transparent /*hides emojis*/
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+
+/* // #idNameHere { */
