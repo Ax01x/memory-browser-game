@@ -8,16 +8,17 @@ _An easy memory card game!_
 .. u write ur file link in here
 
 ## Getting Started
+You have 5 tries to get the right pairs matched, every pair matched gives you 5 points to your score.
 
 ### Play the Game
 .. u will put a link to the deployed game
 [Deployed Game] (link-goes-here-later)
 
 ### How to play
-1. Press the start button
-2. Click a card
-3. Click a second card
-4. Memorize the matching cards
+1. Click a card.
+2. Click another card.
+3. Memorize the cards arangements.
+4. Match the pairs.
 
 ### Installation
 No installation required! Simply clone the repo to your machine and open the `index.html` file in your browser.
@@ -33,5 +34,3 @@ open index.html
 - HTML
 - CSS
 - JavaScript
-
-###

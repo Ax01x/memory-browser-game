@@ -1,44 +1,50 @@
 body {
-    background-color: rgba(250, 223, 222, 0.966);
-}
-
-header {
-    background-color: rgb(211, 120, 135);
-}
-
-h1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     text-align: center;
+    background: rgb(234, 185, 190);
 }
 
-button {
-    width: 150px;
-    height: 200px;
-    background-color: rgba(242, 216, 189, 0.621);
-    border-radius: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color:black;
-    font-size: 50px;
-    color: transparent /*hides emojis*/
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-main {
+.card {
+    width: 80px;
+    height: 80px;
+    background: rgb(249, 215, 221);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    user-select: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+.card:hover {
+    transform: scale(1.05);
+}
 
-/* // #idNameHere { */
-
-#startbtn {
-    height: 50px;
-    width: 100px;
+.score,
+.lives,
+.message {
+    margin: 5px;
     font-size: 20px;
-    justify-content: center;
-    align-content: center;
-    color: black 
+}
 
+button {
+    background-color: rgb(242, 177, 188);
 }
